@@ -19,10 +19,8 @@ Error Handling: Validates file structure and required columns
 File Format Requirements
 Input Files
 Both files must be pipe-delimited (|) CSV or TXT files with the following structure:
-
 Required Columns
 Both files must contain these exact column names:
-
 LOC - Location identifier
 ITEM - Item/product identifier
 CHANNEL - Sales channel identifier
@@ -31,15 +29,12 @@ FCST - Forecast value (to be updated)
 
 File 1 (Base File)
 Contains the dataset to be updated
-
 Special format: Single column with pipe-delimited values per row
 Header row with column names separated by |
-
 Data rows with values separated by |
 
 File 2 (Source File)
 Contains the new forecast values
-
 Standard pipe-delimited CSV format
 
 Used as the source for replacement values
