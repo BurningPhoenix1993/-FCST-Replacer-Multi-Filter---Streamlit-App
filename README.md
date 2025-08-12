@@ -36,7 +36,9 @@ Data rows with values separated by |
 File 2 (Source File)
 Contains the new forecast values
 Standard pipe-delimited CSV format
-**
-REQUIREMENTS : pip install streamlit pandas**
 
-Used as the source for replacement values
+**REQUIREMENTS : pip install streamlit pandas**
+
+
+**REQUIREMENTS : pip install streamlit pandas**
+
